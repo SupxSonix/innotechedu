@@ -1,3 +1,4 @@
+<?php error_reporting(1); ?>
 <!DOCTYPE html>
 <html lang="PH">
   <head>
@@ -10,8 +11,6 @@
     	#vis{
     		margin-top: 10px
     	}   }
-
-
       .ii{
       	font-size: 30px
       }
@@ -28,8 +27,6 @@
     	}
 
       }
-
-
     @media screen and (max-width: 360px){
         .them{
           padding-top: 20px
@@ -62,11 +59,9 @@
     <!-- Google Analytics -->
 
     <!-- End Google Analytics -->
-
     <!--Google Adsense sript below-->
-       <script data-ad-client="ca-pub-3995015911667837" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!--<script data-ad-client="ca-pub-3995015911667837" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
     <!--Google Adsense sript above-->
-
     <!-- Favicon -->
     <link href="img/getintopc.ico" rel="icon">
     <!-- Google Fonts -->
@@ -85,3 +80,4 @@
       Author: Innovator's Group
     ======================================================= -->
   </head>
+<?php include "header-nav.php"; ?>
